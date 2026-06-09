@@ -30,6 +30,7 @@
             -80,
             0
         ],
+        "timeout": 60000,
         "next": [
             "SelectArtsBattleMode"
         ]
@@ -108,8 +109,23 @@
         "pre_wait_freezes": 500,
         "index": 0,
         "next": [
+            "HasSelectedArtsBattleUnit",
             "SelectUnitButton",
             "SelectArtsBattleLevel"
+        ]
+    },
+    "HasSelectedArtsBattleUnit": {
+        "recognition": "OCR",
+        "roi": [
+            518,
+            299,
+            478,
+            62
+        ],
+        "pre_wait_freezes": 500,
+        "post_wait_freezes": 500,
+        "next": [
+            "StartArtsBattle"
         ]
     },
     "SelectUnitButton": {
@@ -118,7 +134,7 @@
         "expected": "选择队伍",
         "post_wait_freezes": 500,
         "next": [
-            "hasSelectedUnit",
+            "HasSelectedUnit",
             "UnitList",
             "SelectUnitButton"
         ]

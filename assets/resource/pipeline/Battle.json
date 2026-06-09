@@ -294,7 +294,7 @@
         },
         "next": [
             "UseAPOrTickets",
-            "hasSelectedUnit",
+            "HasSelectedUnit",
             "UnitList",
             "ConsumeAPStones",
             "[JumpBack]OK"
@@ -380,7 +380,7 @@
         "next": [
             "ConsumeAPStones",
             "APOK",
-            "hasSelectedUnit",
+            "HasSelectedUnit",
             "UnitList",
             "StartFight"
         ]
@@ -399,7 +399,7 @@
         "action": "DoNothing",
         "post_wait_freezes": 500
     },
-    "hasSelectedUnit": {
+    "HasSelectedUnit": {
         "recognition": "OCR",
         "roi": [
             256,

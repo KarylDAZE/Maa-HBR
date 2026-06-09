@@ -2,7 +2,7 @@
     "interface_version": 2,
     "name": "Maa-HBR",
     "label": "Maa-HBR",
-    "version": "v1.0.8",
+    "version": "v1.0.9",
     "icon": "resource/image/logo.ico",
     "github": "https://github.com/KarylDAZE/Maa-HBR",
     "mirrorchyan_rid": "Maa-HBR",
@@ -325,7 +325,7 @@
                 "选择技术模拟战关卡"
             ],
             "pipeline_override": {
-                "hasSelectedUnit": {
+                "HasSelectedUnit": {
                     "next": [
                         "StartArtsBattle",
                         "[JumpBack]GoBack"
@@ -730,7 +730,7 @@
                         "APOK": {
                             "next": [
                                 "APOK",
-                                "hasSelectedUnit",
+                                "HasSelectedUnit",
                                 "UnitList",
                                 "StartFight",
                                 "ApNotEnough"
@@ -792,10 +792,13 @@
                 {
                     "name": "1",
                     "pipeline_override": {
-                        "hasSelectedUnit": {
+                        "HasSelectedUnit": {
                             "expected": "01"
                         },
                         "SelectUnit": {
+                            "expected": "01"
+                        },
+                        "HasSelectedArtsBattleUnit": {
                             "expected": "01"
                         }
                     }
@@ -803,10 +806,13 @@
                 {
                     "name": "2",
                     "pipeline_override": {
-                        "hasSelectedUnit": {
+                        "HasSelectedUnit": {
                             "expected": "02"
                         },
                         "SelectUnit": {
+                            "expected": "02"
+                        },
+                        "HasSelectedArtsBattleUnit": {
                             "expected": "02"
                         }
                     }
@@ -814,10 +820,13 @@
                 {
                     "name": "3",
                     "pipeline_override": {
-                        "hasSelectedUnit": {
+                        "HasSelectedUnit": {
                             "expected": "03"
                         },
                         "SelectUnit": {
+                            "expected": "03"
+                        },
+                        "HasSelectedArtsBattleUnit": {
                             "expected": "03"
                         }
                     }
@@ -825,10 +834,13 @@
                 {
                     "name": "4",
                     "pipeline_override": {
-                        "hasSelectedUnit": {
+                        "HasSelectedUnit": {
                             "expected": "04"
                         },
                         "SelectUnit": {
+                            "expected": "04"
+                        },
+                        "HasSelectedArtsBattleUnit": {
                             "expected": "04"
                         }
                     }
@@ -836,10 +848,13 @@
                 {
                     "name": "5",
                     "pipeline_override": {
-                        "hasSelectedUnit": {
+                        "HasSelectedUnit": {
                             "expected": "05"
                         },
                         "SelectUnit": {
+                            "expected": "05"
+                        },
+                        "HasSelectedArtsBattleUnit": {
                             "expected": "05"
                         }
                     }
@@ -847,10 +862,13 @@
                 {
                     "name": "6",
                     "pipeline_override": {
-                        "hasSelectedUnit": {
+                        "HasSelectedUnit": {
                             "expected": "06"
                         },
                         "SelectUnit": {
+                            "expected": "06"
+                        },
+                        "HasSelectedArtsBattleUnit": {
                             "expected": "06"
                         }
                     }
@@ -858,10 +876,13 @@
                 {
                     "name": "7",
                     "pipeline_override": {
-                        "hasSelectedUnit": {
+                        "HasSelectedUnit": {
                             "expected": "07"
                         },
                         "SelectUnit": {
+                            "expected": "07"
+                        },
+                        "HasSelectedArtsBattleUnit": {
                             "expected": "07"
                         }
                     }
@@ -869,10 +890,13 @@
                 {
                     "name": "8",
                     "pipeline_override": {
-                        "hasSelectedUnit": {
+                        "HasSelectedUnit": {
                             "expected": "08"
                         },
                         "SelectUnit": {
+                            "expected": "08"
+                        },
+                        "HasSelectedArtsBattleUnit": {
                             "expected": "08"
                         }
                     }
@@ -880,10 +904,13 @@
                 {
                     "name": "9",
                     "pipeline_override": {
-                        "hasSelectedUnit": {
+                        "HasSelectedUnit": {
                             "expected": "09"
                         },
                         "SelectUnit": {
+                            "expected": "09"
+                        },
+                        "HasSelectedArtsBattleUnit": {
                             "expected": "09"
                         }
                     }
@@ -891,10 +918,13 @@
                 {
                     "name": "10",
                     "pipeline_override": {
-                        "hasSelectedUnit": {
+                        "HasSelectedUnit": {
                             "expected": "10"
                         },
                         "SelectUnit": {
+                            "expected": "10"
+                        },
+                        "HasSelectedArtsBattleUnit": {
                             "expected": "10"
                         }
                     }
@@ -902,10 +932,13 @@
                 {
                     "name": "11",
                     "pipeline_override": {
-                        "hasSelectedUnit": {
+                        "HasSelectedUnit": {
                             "expected": "11"
                         },
                         "SelectUnit": {
+                            "expected": "11"
+                        },
+                        "HasSelectedArtsBattleUnit": {
                             "expected": "11"
                         }
                     }
@@ -913,10 +946,13 @@
                 {
                     "name": "12",
                     "pipeline_override": {
-                        "hasSelectedUnit": {
+                        "HasSelectedUnit": {
                             "expected": "12"
                         },
                         "SelectUnit": {
+                            "expected": "12"
+                        },
+                        "HasSelectedArtsBattleUnit": {
                             "expected": "12"
                         }
                     }
@@ -924,10 +960,13 @@
                 {
                     "name": "13",
                     "pipeline_override": {
-                        "hasSelectedUnit": {
+                        "HasSelectedUnit": {
                             "expected": "13"
                         },
                         "SelectUnit": {
+                            "expected": "13"
+                        },
+                        "HasSelectedArtsBattleUnit": {
                             "expected": "13"
                         }
                     }
@@ -935,10 +974,13 @@
                 {
                     "name": "14",
                     "pipeline_override": {
-                        "hasSelectedUnit": {
+                        "HasSelectedUnit": {
                             "expected": "14"
                         },
                         "SelectUnit": {
+                            "expected": "14"
+                        },
+                        "HasSelectedArtsBattleUnit": {
                             "expected": "14"
                         }
                     }
@@ -946,10 +988,13 @@
                 {
                     "name": "15",
                     "pipeline_override": {
-                        "hasSelectedUnit": {
+                        "HasSelectedUnit": {
                             "expected": "15"
                         },
                         "SelectUnit": {
+                            "expected": "15"
+                        },
+                        "HasSelectedArtsBattleUnit": {
                             "expected": "15"
                         }
                     }
@@ -957,10 +1002,13 @@
                 {
                     "name": "16",
                     "pipeline_override": {
-                        "hasSelectedUnit": {
+                        "HasSelectedUnit": {
                             "expected": "16"
                         },
                         "SelectUnit": {
+                            "expected": "16"
+                        },
+                        "HasSelectedArtsBattleUnit": {
                             "expected": "16"
                         }
                     }
@@ -968,10 +1016,13 @@
                 {
                     "name": "17",
                     "pipeline_override": {
-                        "hasSelectedUnit": {
+                        "HasSelectedUnit": {
                             "expected": "17"
                         },
                         "SelectUnit": {
+                            "expected": "17"
+                        },
+                        "HasSelectedArtsBattleUnit": {
                             "expected": "17"
                         }
                     }
@@ -979,10 +1030,13 @@
                 {
                     "name": "18",
                     "pipeline_override": {
-                        "hasSelectedUnit": {
+                        "HasSelectedUnit": {
                             "expected": "18"
                         },
                         "SelectUnit": {
+                            "expected": "18"
+                        },
+                        "HasSelectedArtsBattleUnit": {
                             "expected": "18"
                         }
                     }
@@ -990,10 +1044,13 @@
                 {
                     "name": "19",
                     "pipeline_override": {
-                        "hasSelectedUnit": {
+                        "HasSelectedUnit": {
                             "expected": "19"
                         },
                         "SelectUnit": {
+                            "expected": "19"
+                        },
+                        "HasSelectedArtsBattleUnit": {
                             "expected": "19"
                         }
                     }
@@ -1001,10 +1058,13 @@
                 {
                     "name": "20",
                     "pipeline_override": {
-                        "hasSelectedUnit": {
+                        "HasSelectedUnit": {
                             "expected": "20"
                         },
                         "SelectUnit": {
+                            "expected": "20"
+                        },
+                        "HasSelectedArtsBattleUnit": {
                             "expected": "20"
                         }
                     }
@@ -1261,6 +1321,22 @@
                     "pipeline_override": {
                         "SelectArtsBattleLevel": {
                             "expected": "\\[31F\\]困难"
+                        }
+                    }
+                },
+                {
+                    "name": "31X 普通",
+                    "pipeline_override": {
+                        "SelectArtsBattleLevel": {
+                            "expected": "\\[31X\\]普通"
+                        }
+                    }
+                },
+                {
+                    "name": "31X 困难",
+                    "pipeline_override": {
+                        "SelectArtsBattleLevel": {
+                            "expected": "\\[31X\\]困难"
                         }
                     }
                 },
