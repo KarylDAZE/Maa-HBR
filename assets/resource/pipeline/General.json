@@ -43,6 +43,19 @@
         ],
         "action": "Click"
     },
+    "LoginButton": {
+        "recognition": "OCR",
+        "roi": [
+            456,
+            350,
+            365,
+            82
+        ],
+        "expected": [
+            "登录"
+        ],
+        "action": "Click"
+    },
     "EndHomepage": {
         "recognition": "TemplateMatch",
         "roi": [
@@ -125,6 +138,7 @@
             "AtHomepage",
             "[JumpBack]AcceptAgreement",
             "[JumpBack]Login",
+            "[JumpBack]LoginButton",
             "[JumpBack]SkipCutscene",
             "[JumpBack]EndAutoSweep",
             "[JumpBack]EndFight",
