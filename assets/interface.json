@@ -2,7 +2,7 @@
     "interface_version": 2,
     "name": "Maa-HBR",
     "label": "Maa-HBR",
-    "version": "v1.0.9",
+    "version": "v1.1.0",
     "icon": "resource/image/logo.ico",
     "github": "https://github.com/KarylDAZE/Maa-HBR",
     "mirrorchyan_rid": "Maa-HBR",
@@ -271,6 +271,11 @@
         {
             "name": "领取任务奖励",
             "entry": "Mission",
+            "default_check": true
+        },
+        {
+            "name": "领取激励任务奖励",
+            "entry": "RewardMission",
             "default_check": true
         },
         {

@@ -120,6 +120,7 @@
             139,
             22
         ],
+        "post_delay": 3000,
         "next": [
             "GetReward",
             "ChallengeMission"
@@ -199,5 +200,53 @@
         ],
         "template": "AtLimitedTimeMission__28_117_1220_50__0_67_1280_150.png",
         "next": "GoBackHomepage"
+    },
+    "RewardMission": {
+        "next": [
+            "EnterRewardMission",
+            "[JumpBack]Menu"
+        ]
+    },
+    "EnterRewardMission": {
+        "recognition": "OCR",
+        "action": "Click",
+        "roi": [
+            0,
+            0,
+            477,
+            457
+        ],
+        "expected": "激励任务",
+        "next": [
+            "NoReward",
+            "[JumpBack]GetReward1"
+        ],
+        "post_wait_freezes": 2000
+    },
+    "GetReward1": {
+        "recognition": "TemplateMatch",
+        "roi": [
+            948,
+            549,
+            328,
+            151
+        ],
+        "template": "MissionGetReward__999_606_210_53__949_556_310_153.png",
+        "action": "Click",
+        "post_wait_freezes": 2000,
+        "next": "OK"
+    },
+    "NoReward": {
+        "recognition": "TemplateMatch",
+        "roi": [
+            948,
+            549,
+            328,
+            151
+        ],
+        "template": "NoReward.png",
+        "next": [
+            "GoBackHomepage"
+        ]
     }
 }
