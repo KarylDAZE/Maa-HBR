@@ -520,7 +520,13 @@
     "EndFight": {
         "recognition": "OCR",
         "action": "Click",
-        "expected": "战斗奖励"
+        "roi": [
+            0,
+            0,
+            217,
+            112
+        ],
+        "expected": "奖励"
     },
     "GiveUp": {
         "recognition": "OCR",

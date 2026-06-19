@@ -150,8 +150,7 @@
             "[JumpBack]HomepageButton",
             "[JumpBack]Cancel",
             "[JumpBack]OK",
-            "[JumpBack]SkipTimeLimitShop",
-            "[JumpBack]SkipBaseball"
+            "[JumpBack]SkipTimeLimitShop"
         ],
         "timeout": 300000
     },
