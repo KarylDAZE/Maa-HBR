@@ -28,10 +28,10 @@
         "expected": "OK",
         "post_wait_freezes": 1000,
         "next": [
-            "GetReward",
             "DailyMission",
             "WeeklyMission",
             "AccumulatedMission",
+            "GetReward",
             "ChallengeMission",
             "EventMission",
             "LimitedTimeMission",
