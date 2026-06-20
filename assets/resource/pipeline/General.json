@@ -148,8 +148,8 @@
             "[JumpBack]ExitWindow",
             "[JumpBack]ExitMenu",
             "[JumpBack]HomepageButton",
-            "[JumpBack]Cancel",
             "[JumpBack]OK",
+            "[JumpBack]Cancel",
             "[JumpBack]SkipTimeLimitShop"
         ],
         "timeout": 300000
