@@ -82,13 +82,14 @@
         "recognition": "TemplateMatch",
         "template": [
             "FreeLottery__845_410_198_67__795_360_298_167.png",
-            "FreeLottery2__846_405_190_75__796_355_290_175.png"
+            "FreeLottery2__846_405_190_75__796_355_290_175.png",
+            "FreeLottery3.png"
         ],
         "roi": [
-            666,
-            352,
-            548,
-            188
+            587,
+            316,
+            693,
+            229
         ],
         "threshold": 0.9,
         "action": "Click",
