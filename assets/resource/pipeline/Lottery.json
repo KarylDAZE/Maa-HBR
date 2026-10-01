@@ -29,6 +29,7 @@
         "post_wait_freezes": 500,
         "next": [
             "FreeLottery",
+            "FreeLotteryTag",
             "TraverseLottery",
             "[JumpBack]OK"
         ]
@@ -45,6 +46,7 @@
         "post_wait_freezes": 500,
         "next": [
             "FreeLottery",
+            "FreeLotteryTag",
             "TraverseLottery",
             "[JumpBack]OK"
         ]
@@ -73,6 +75,7 @@
         "post_delay": 500,
         "next": [
             "FreeLottery",
+            "FreeLotteryTag",
             "TraverseLottery",
             "GoBackHomepage",
             "[JumpBack]OK"
@@ -83,8 +86,7 @@
         "template": [
             "FreeLottery__845_410_198_67__795_360_298_167.png",
             "FreeLottery2__846_405_190_75__796_355_290_175.png",
-            "FreeLottery3.png",
-            "FreeLottery4.png"
+            "FreeLottery3.png"
         ],
         "roi": [
             587,
@@ -98,6 +100,30 @@
         "next": [
             "ConfirmLottery",
             "FreeLottery",
+            "[JumpBack]OK"
+        ]
+    },
+    "FreeLotteryTag": {
+        "recognition": "OCR",
+        "expected": "还有1次免费",
+        "roi": [
+            627,
+            305,
+            653,
+            234
+        ],
+        "target_offset": [
+            0,
+            0,
+            0,
+            50
+        ],
+        "threshold": 0.9,
+        "action": "Click",
+        "post_wait_freezes": 500,
+        "next": [
+            "ConfirmLottery",
+            "FreeLotteryTag",
             "[JumpBack]OK"
         ]
     },
