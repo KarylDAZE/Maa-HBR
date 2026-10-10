@@ -92,13 +92,16 @@
             1280,
             150
         ],
-        "template": "AtDailyMission__28_117_1220_50__0_67_1280_150.png",
+        "template": [
+            "AtDailyMission__28_117_1220_50__0_67_1280_150.png",
+            "AtDailyMission1.png"
+        ],
         "action": "Click",
         "target": [
-            266,
-            133,
-            139,
-            22
+            340,
+            134,
+            20,
+            15
         ],
         "next": [
             "GetReward",
@@ -113,13 +116,16 @@
             1280,
             150
         ],
-        "template": "AtWeeklyMission__28_117_1220_50__0_67_1280_150.png",
+        "template": [
+            "AtWeeklyMission__28_117_1220_50__0_67_1280_150.png",
+            "AtWeeklyMission1.png"
+        ],
         "action": "Click",
         "target": [
-            467,
-            133,
-            139,
-            22
+            563,
+            136,
+            9,
+            8
         ],
         "post_delay": 3000,
         "next": [
@@ -135,13 +141,16 @@
             1280,
             150
         ],
-        "template": "AtAccumulatedMission__28_117_1220_50__0_67_1280_150.png",
+        "template": [
+            "AtAccumulatedMission__28_117_1220_50__0_67_1280_150.png",
+            "AtAccumulatedMission1.png"
+        ],
         "action": "Click",
         "target": [
-            671,
-            133,
-            139,
-            22
+            790,
+            142,
+            9,
+            7
         ],
         "next": [
             "GetReward",
@@ -156,13 +165,16 @@
             1280,
             150
         ],
-        "template": "AtChallengeMission__28_117_1220_50__0_67_1280_150.png",
+        "template": [
+            "AtChallengeMission__28_117_1220_50__0_67_1280_150.png",
+            "AtChallengeMission1.png"
+        ],
         "action": "Click",
         "target": [
-            870,
-            133,
-            139,
-            22
+            1017,
+            130,
+            13,
+            25
         ],
         "post_delay": 500,
         "next": [
@@ -178,7 +190,10 @@
             1280,
             150
         ],
-        "template": "AtEventMission__28_117_1220_50__0_67_1280_150.png",
+        "template": [
+            "AtEventMission__28_117_1220_50__0_67_1280_150.png",
+            "AtEventMission1.png"
+        ],
         "action": "Click",
         "target": [
             1066,
