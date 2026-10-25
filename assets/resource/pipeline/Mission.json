@@ -172,9 +172,7 @@
         "action": "Click",
         "target": [
             1017,
-            130,
-            13,
-            25
+            130
         ],
         "post_delay": 500,
         "next": [
