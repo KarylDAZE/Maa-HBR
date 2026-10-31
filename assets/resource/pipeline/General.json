@@ -148,7 +148,8 @@
             "[JumpBack]HomepageButton",
             "[JumpBack]OK",
             "[JumpBack]Cancel",
-            "[JumpBack]SkipTimeLimitShop"
+            "[JumpBack]SkipTimeLimitShop",
+            "[JumpBack]GetCommonReward"
         ],
         "timeout": 300000
     },
@@ -370,6 +371,19 @@
     "SkipBaseball": {
         "recognition": "OCR",
         "expected": "中路反击",
+        "action": "Click",
+        "pre_wait_freezes": 500,
+        "post_wait_freezes": 500
+    },
+    "GetCommonReward": {
+        "recognition": "OCR",
+        "expected": "领取",
+        "roi": [
+            287,
+            337,
+            679,
+            383
+        ],
         "action": "Click",
         "pre_wait_freezes": 500,
         "post_wait_freezes": 500
