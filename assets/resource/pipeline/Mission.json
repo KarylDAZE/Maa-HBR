@@ -19,25 +19,17 @@
         "recognition": "TemplateMatch",
         "template": "MissionGetReward__999_606_210_53__949_556_310_153.png",
         "action": "Click",
-        "post_wait_freezes": 2000,
-        "next": "MissionOK"
+        "post_wait_freezes": 2000
     },
-    "MissionOK": {
-        "recognition": "OCR",
-        "action": "Click",
-        "expected": "OK",
-        "post_wait_freezes": 1000,
-        "next": [
-            "DailyMission",
-            "WeeklyMission",
-            "AccumulatedMission",
+    "MissionPopup": {
+        "recognition": "Or",
+        "any_of": [
             "GetReward",
-            "ChallengeMission",
-            "EventMission",
-            "LimitedTimeMission",
-            "BackToHomepage",
-            "[JumpBack]ClickScreen"
-        ]
+            "OK",
+            "ClickScreen"
+        ],
+        "action": "Click",
+        "post_wait_freezes": 1000
     },
     "MonthlyMission": {
         "recognition": "OCR",
@@ -45,7 +37,7 @@
         "expected": "每月任务",
         "post_wait_freezes": 2000,
         "next": [
-            "GetReward",
+            "[JumpBack]MissionPopup",
             "DailyMission"
         ]
     },
@@ -80,7 +72,7 @@
         ],
         "pre_wait_freezes": 1000,
         "next": [
-            "GetReward",
+            "[JumpBack]MissionPopup",
             "WeeklyMission"
         ]
     },
@@ -104,7 +96,7 @@
             15
         ],
         "next": [
-            "GetReward",
+            "[JumpBack]MissionPopup",
             "AccumulatedMission"
         ]
     },
@@ -129,7 +121,7 @@
         ],
         "post_delay": 3000,
         "next": [
-            "GetReward",
+            "[JumpBack]MissionPopup",
             "ChallengeMission"
         ]
     },
@@ -153,7 +145,7 @@
             7
         ],
         "next": [
-            "GetReward",
+            "[JumpBack]MissionPopup",
             "EventMission"
         ]
     },
@@ -176,7 +168,7 @@
         ],
         "post_delay": 500,
         "next": [
-            "GetReward",
+            "[JumpBack]MissionPopup",
             "LimitedTimeMission"
         ]
     },
@@ -200,7 +192,7 @@
             22
         ],
         "next": [
-            "GetReward",
+            "[JumpBack]MissionPopup",
             "BackToHomepage"
         ]
     },
